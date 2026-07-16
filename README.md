@@ -1,20 +1,29 @@
 # BCA Python Fundamentals & Utility Library
 
-This repository contains a comprehensive collection of Python scripts developed as part of the Bachelor of Computer Applications (BCA) curriculum at Brainware University. It covers everything from basic iterative logic to advanced GUI development and data science modules.
+This repository contains a comprehensive collection of Python scripts developed for the Bachelor of Computer Applications (BCA) curriculum. It follows the structured module list provided in the course syllabus.
+
+## Syllabus Modules
+
+| Module No. | Description | Key Topics |
+| :--- | :--- | :--- |
+| **1** | Introduction to Python | Math operations, If-Else logic, Loops (Fibonacci, Prime, Armstrong, Palindrome) |
+| **2** | Lists & Strings | List operations, Matrix 3x3, Tuples, String functions |
+| **3** | Functions & Modules | Modular logic, GCD/LCM, Dictionaries (Sorting, Frequency, Concatenation) |
+| **4** | File Handling, OOP & GUI | Binary/Text File I/O, Class/Inheritance, Tkinter GUI (Calculator, Calendar) |
+| **5** | Packages | Data Science libraries: NumPy (Arrays, Matrix), Matplotlib (Graphs), SciPy |
 
 ## Repository Structure
-- **GeometricAndArithmeticOperations.py**: Basic math and geometric calculations.
-- **ConditionalLogicPrograms.py**: `if-else` control flow challenges.
-- **LoopBasedPrograms.py**: Iterative logic (factorial, prime checks, etc.).
-- **DataStructuresAndStrings.py**: Lists, tuples, and string manipulation.
-- **FunctionModules.py**: Procedural functions and modular logic.
-- **DictionaryOperations.py**: Dictionary data structure management.
-- **FileHandlingAndOops.py**: File I/O and Object-Oriented Programming (OOP) concepts.
-- **GuiApplications.py**: Event-driven programming using `tkinter`.
-- **DataSciencePackages.py**: Scientific computing with `numpy`, `matplotlib`, and `scipy`.
+- `GeometricAndArithmeticOperations.py`: Module 1 (Basics)
+- `ConditionalLogicPrograms.py`: Module 1 (If-Else)
+- `LoopBasedPrograms.py`: Module 1 (Loops)
+- `DataStructuresAndStrings.py`: Module 2 (Lists, Tuples, Strings)
+- `FunctionModules.py`: Module 3 (Functions)
+- `DictionaryOperations.py`: Module 3 (Dictionaries)
+- `FileHandlingAndOops.py`: Module 4 (Files, OOP)
+- `GuiApplications.py`: Module 4 (Tkinter)
+- `DataSciencePackages.py`: Module 5 (NumPy, Matplotlib, SciPy)
 
-## Getting Started
-To run these scripts, ensure you have Python 3 installed. For the GUI and data science modules, install the required dependencies:
-
+## Setup
+To run the full suite, ensure dependencies are installed:
 ```bash
 pip install tkcalendar numpy matplotlib scipy
